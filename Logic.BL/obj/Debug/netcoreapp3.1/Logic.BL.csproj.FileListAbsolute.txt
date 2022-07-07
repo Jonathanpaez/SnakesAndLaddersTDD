@@ -1,0 +1,13 @@
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Logic.BL\bin\Debug\netcoreapp3.1\Logic.BL.deps.json
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Logic.BL\bin\Debug\netcoreapp3.1\Logic.BL.dll
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Logic.BL\bin\Debug\netcoreapp3.1\Logic.BL.pdb
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Logic.BL\bin\Debug\netcoreapp3.1\Entities.BE.dll
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Logic.BL\bin\Debug\netcoreapp3.1\Entities.BE.pdb
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Logic.BL\obj\Debug\netcoreapp3.1\Logic.BL.csproj.AssemblyReference.cache
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Logic.BL\obj\Debug\netcoreapp3.1\Logic.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Logic.BL\obj\Debug\netcoreapp3.1\Logic.BL.AssemblyInfoInputs.cache
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Logic.BL\obj\Debug\netcoreapp3.1\Logic.BL.AssemblyInfo.cs
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Logic.BL\obj\Debug\netcoreapp3.1\Logic.BL.csproj.CoreCompileInputs.cache
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Logic.BL\obj\Debug\netcoreapp3.1\Logic.BL.csproj.CopyComplete
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Logic.BL\obj\Debug\netcoreapp3.1\Logic.BL.dll
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Logic.BL\obj\Debug\netcoreapp3.1\Logic.BL.pdb

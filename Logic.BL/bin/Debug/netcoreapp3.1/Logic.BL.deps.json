@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Logic.BL/1.0.0": {
+        "dependencies": {
+          "Entities.BE": "1.0.0"
+        },
+        "runtime": {
+          "Logic.BL.dll": {}
+        }
+      },
+      "Entities.BE/1.0.0": {
+        "runtime": {
+          "Entities.BE.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Logic.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entities.BE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

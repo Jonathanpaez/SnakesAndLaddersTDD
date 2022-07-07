@@ -1,0 +1,10 @@
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Entities.BE\bin\Debug\netcoreapp3.1\Entities.BE.deps.json
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Entities.BE\bin\Debug\netcoreapp3.1\Entities.BE.dll
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Entities.BE\bin\Debug\netcoreapp3.1\Entities.BE.pdb
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Entities.BE\obj\Debug\netcoreapp3.1\Entities.BE.csproj.AssemblyReference.cache
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Entities.BE\obj\Debug\netcoreapp3.1\Entities.BE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Entities.BE\obj\Debug\netcoreapp3.1\Entities.BE.AssemblyInfoInputs.cache
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Entities.BE\obj\Debug\netcoreapp3.1\Entities.BE.AssemblyInfo.cs
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Entities.BE\obj\Debug\netcoreapp3.1\Entities.BE.csproj.CoreCompileInputs.cache
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Entities.BE\obj\Debug\netcoreapp3.1\Entities.BE.dll
+C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\Entities.BE\obj\Debug\netcoreapp3.1\Entities.BE.pdb

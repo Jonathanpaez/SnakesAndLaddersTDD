@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SnakesAndLaddersTDD/1.0.0": {
+        "dependencies": {
+          "Entities.BE": "1.0.0",
+          "Logic.BL": "1.0.0"
+        },
+        "runtime": {
+          "SnakesAndLaddersTDD.dll": {}
+        }
+      },
+      "Entities.BE/1.0.0": {
+        "runtime": {
+          "Entities.BE.dll": {}
+        }
+      },
+      "Logic.BL/1.0.0": {
+        "dependencies": {
+          "Entities.BE": "1.0.0"
+        },
+        "runtime": {
+          "Logic.BL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SnakesAndLaddersTDD/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entities.BE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Logic.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
