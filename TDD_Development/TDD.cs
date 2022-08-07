@@ -63,8 +63,8 @@ namespace TDD_Development
         {
             var gameRules = new Game();
             var board = gameRules.CreateBoard(100, 2);
-            board.Players[0].TokenPosition = gameRules.MovePlayerToken(board.Players[0].TokenPosition, 3, board.Squares);
-            board.Players[1].TokenPosition = gameRules.MovePlayerToken(board.Players[1].TokenPosition, 6, board.Squares);
+            gameRules.MovePlayerToken(board, 3, 1);
+            gameRules.MovePlayerToken(board, 6, 2);
             Assert.AreEqual(4, board.Players[0].TokenPosition);
             Assert.AreEqual(7, board.Players[1].TokenPosition);
         }
@@ -76,7 +76,7 @@ namespace TDD_Development
             var board = gameRules.CreateBoard(100, 2);
             var diceResult = gameRules.ThrowDice(null);
             var playerPreviousPosition = board.Players[0].TokenPosition;
-            board.Players[0].TokenPosition = gameRules.MovePlayerToken(board.Players[0].TokenPosition, diceResult, board.Squares);
+            gameRules.MovePlayerToken(board, diceResult, 1);
             Assert.AreEqual(playerPreviousPosition + diceResult, board.Players[0].TokenPosition);
         }
 
@@ -94,7 +94,7 @@ namespace TDD_Development
         {
             var gameRules = new Game();
             var board = gameRules.CreateBoard(100, 2);
-            board.Squares = gameRules.LoadSquaresRules(board.Squares, gameRules.SquareRules());
+            board.Squares = gameRules.LoadSquaresRules(board.Squares, gameRules.GetSquareRules());
             Assert.IsTrue(board.Squares.FindAll(square => square.Type == "Snake").Count != 0);
             Assert.IsTrue(board.Squares.FindAll(square => square.Type == "Ladder").Count != 0);
         }
@@ -104,10 +104,10 @@ namespace TDD_Development
         {
             var gameRules = new Game();
             var board = gameRules.CreateBoard(100, 2);
-            board.Squares = gameRules.LoadSquaresRules(board.Squares, gameRules.SquareRules());
+            board.Squares = gameRules.LoadSquaresRules(board.Squares, gameRules.GetSquareRules());
             var diceResult = gameRules.ThrowDice(1);
             var playerPreviousPosition = board.Players[0].TokenPosition;
-            board.Players[0].TokenPosition = gameRules.MovePlayerToken(board.Players[0].TokenPosition, diceResult, board.Squares);
+            gameRules.MovePlayerToken(board, diceResult, 1);
             Assert.IsTrue(playerPreviousPosition + diceResult < board.Players[0].TokenPosition);
         }
 
@@ -116,10 +116,10 @@ namespace TDD_Development
         {
             var gameRules = new Game();
             var board = gameRules.CreateBoard(100, 2);
-            board.Squares = gameRules.LoadSquaresRules(board.Squares, gameRules.SquareRules());
+            board.Squares = gameRules.LoadSquaresRules(board.Squares, gameRules.GetSquareRules());
             var diceResult = gameRules.ThrowDice(15);
             var playerPreviousPosition = board.Players[0].TokenPosition;
-            board.Players[0].TokenPosition = gameRules.MovePlayerToken(board.Players[0].TokenPosition, diceResult, board.Squares);
+            gameRules.MovePlayerToken(board, diceResult, 1);
             Assert.IsTrue(playerPreviousPosition + diceResult > board.Players[0].TokenPosition);
         }
 
@@ -128,9 +128,9 @@ namespace TDD_Development
         {
             var gameRules = new Game();
             var board = gameRules.CreateBoard(100, 2);
-            board.Squares = gameRules.LoadSquaresRules(board.Squares, gameRules.SquareRules());
+            board.Squares = gameRules.LoadSquaresRules(board.Squares, gameRules.GetSquareRules());
             var diceResult = gameRules.ThrowDice(99);
-            board.Players[0].TokenPosition = gameRules.MovePlayerToken(board.Players[0].TokenPosition, diceResult, board.Squares);
+            gameRules.MovePlayerToken(board, diceResult, 1);
             Assert.IsTrue(gameRules.HasWinner(board, board.Players[0].TokenPosition));
         }
 
@@ -139,9 +139,9 @@ namespace TDD_Development
         {
             var gameRules = new Game();
             var board = gameRules.CreateBoard(100, 2);
-            board.Squares = gameRules.LoadSquaresRules(board.Squares, gameRules.SquareRules());
+            board.Squares = gameRules.LoadSquaresRules(board.Squares, gameRules.GetSquareRules());
             var diceResult = gameRules.ThrowDice(100);
-            board.Players[0].TokenPosition = gameRules.MovePlayerToken(board.Players[0].TokenPosition, diceResult, board.Squares);
+            gameRules.MovePlayerToken(board, diceResult, 1);
             Assert.IsFalse(gameRules.HasWinner(board, board.Players[0].TokenPosition));
         }
 

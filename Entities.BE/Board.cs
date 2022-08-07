@@ -18,7 +18,7 @@ namespace Entities.BE
 
     public interface ISquareRules
     {
-        public List<Rule> SquareRules();
+        public List<Rule> GetSquareRules();
     }
 
     public class Rule

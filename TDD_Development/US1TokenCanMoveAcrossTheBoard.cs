@@ -26,8 +26,7 @@ namespace TDD_Development
             var gameRules = new Game();
             var board = gameRules.CreateBoard(100, 2);
             Assert.AreEqual(1, board.Players[0].TokenPosition);
-            board.Players[0].TokenPosition =
-                gameRules.MovePlayerToken(board.Players[0].TokenPosition, 3, board.Squares);
+            gameRules.MovePlayerToken(board, 3,1);
             Assert.AreEqual(4, board.Players[0].TokenPosition);
         }
 
@@ -37,11 +36,9 @@ namespace TDD_Development
             var gameRules = new Game();
             var board = gameRules.CreateBoard(100, 2);
             Assert.AreEqual(1, board.Players[0].TokenPosition);
-            board.Players[0].TokenPosition =
-                gameRules.MovePlayerToken(board.Players[0].TokenPosition, 3, board.Squares);
+            gameRules.MovePlayerToken(board, 3, 1);
             Assert.AreEqual(4, board.Players[0].TokenPosition);
-            board.Players[0].TokenPosition =
-                gameRules.MovePlayerToken(board.Players[0].TokenPosition, 4, board.Squares);
+            gameRules.MovePlayerToken(board, 4, 1);
             Assert.AreEqual(8, board.Players[0].TokenPosition);
         }
     }

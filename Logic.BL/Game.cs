@@ -15,7 +15,6 @@ namespace Logic.BL
         public static string LadderSquare = "Ladder";
         public Board CreateBoard(int squareNumber, int playersNumber)
         {
-            // Preguntar al cliente reglas del negocio.
             if (squareNumber < 10 || playersNumber < 2)
             {
                 throw new Exception(ErrorCreateBoard);
@@ -56,16 +55,18 @@ namespace Logic.BL
             return players;
         }
 
-        public int MovePlayerToken(int tokenPosition, int steps, List<Square> boardSquares)
+        public void MovePlayerToken(Board board, int steps, int playerId)
         {
-            var newTokenPosition = tokenPosition + steps;
-            if (newTokenPosition > boardSquares.Last().NumberId) return tokenPosition;
-            var possibleSpecialSquare = boardSquares.Find(square => square.NumberId == newTokenPosition);
+            var player = board.Players.Find(player => player.Id == playerId);
+            var newTokenPosition = player.TokenPosition + steps;
+            if (newTokenPosition > board.Squares.Last().NumberId) return;
+            var possibleSpecialSquare = board.Squares.Find(square => square.NumberId == newTokenPosition);
             if (possibleSpecialSquare != null && !possibleSpecialSquare.Type.Equals(DefaultSquare))
             {
-                return SquareRules().Find(rule => rule.InitialPosition == newTokenPosition)!.FinalPosition;
+                player.TokenPosition = GetSquareRules().Find(rule => rule.InitialPosition == newTokenPosition)!.FinalPosition;
+                return;
             }
-            return newTokenPosition;
+            player.TokenPosition = newTokenPosition;
         }
 
 
@@ -74,7 +75,7 @@ namespace Logic.BL
             return customValue ?? new Random().Next(1, 7);
         }
 
-        public List<Rule> SquareRules()
+        public List<Rule> GetSquareRules()
         {
             return new List<Rule>()
             {

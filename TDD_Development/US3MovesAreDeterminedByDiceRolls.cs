@@ -33,8 +33,7 @@ namespace TDD_Development
             var board = gameRules.CreateBoard(100, 2);
             var diceResult = gameRules.ThrowDice(4);
             var previousPosition = board.Players[0].TokenPosition;
-            board.Players[0].TokenPosition =
-                gameRules.MovePlayerToken(board.Players[0].TokenPosition, diceResult, board.Squares);
+            gameRules.MovePlayerToken(board, diceResult, 1);
             Assert.AreEqual(previousPosition + diceResult, board.Players[0].TokenPosition);
         }
     }
