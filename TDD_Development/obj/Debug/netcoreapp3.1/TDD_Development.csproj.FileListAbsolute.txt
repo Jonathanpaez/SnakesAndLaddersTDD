@@ -103,14 +103,19 @@ C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\TDD_Dev
 C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\TDD_Development\obj\Debug\netcoreapp3.1\TDD_Development.pdb
 C:\Users\bayteq\Documents\GitHub\snakesandladderstdd\SnakesAndLaddersTDD\TDD_Development\obj\Debug\netcoreapp3.1\TDD_Development.genruntimeconfig.cache
 C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\bin\Debug\netcoreapp3.1\CoverletSourceRootsMapping
-C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\bin\Debug\netcoreapp3.1\testhost.exe
+C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\obj\Debug\netcoreapp3.1\TDD_Development.csproj.AssemblyReference.cache
+C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\obj\Debug\netcoreapp3.1\TDD_Development.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\obj\Debug\netcoreapp3.1\TDD_Development.AssemblyInfoInputs.cache
+C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\obj\Debug\netcoreapp3.1\TDD_Development.AssemblyInfo.cs
+C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\obj\Debug\netcoreapp3.1\TDD_Development.csproj.CoreCompileInputs.cache
 C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\bin\Debug\netcoreapp3.1\testhost.dll
+C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\bin\Debug\netcoreapp3.1\testhost.exe
+C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
 C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
 C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\bin\Debug\netcoreapp3.1\nunit.engine.dll
 C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
 C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\bin\Debug\netcoreapp3.1\nunit.engine.core.dll
-C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\bin\Debug\netcoreapp3.1\TDD_Development.deps.json
 C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\bin\Debug\netcoreapp3.1\TDD_Development.runtimeconfig.json
 C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\bin\Debug\netcoreapp3.1\TDD_Development.runtimeconfig.dev.json
@@ -197,11 +202,6 @@ C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLadde
 C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\bin\Debug\netcoreapp3.1\Logic.BL.dll
 C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\bin\Debug\netcoreapp3.1\Entities.BE.pdb
 C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\bin\Debug\netcoreapp3.1\Logic.BL.pdb
-C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\obj\Debug\netcoreapp3.1\TDD_Development.csproj.AssemblyReference.cache
-C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\obj\Debug\netcoreapp3.1\TDD_Development.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\obj\Debug\netcoreapp3.1\TDD_Development.AssemblyInfoInputs.cache
-C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\obj\Debug\netcoreapp3.1\TDD_Development.AssemblyInfo.cs
-C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\obj\Debug\netcoreapp3.1\TDD_Development.csproj.CoreCompileInputs.cache
 C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\obj\Debug\netcoreapp3.1\TDD_Development.csproj.CopyComplete
 C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\obj\Debug\netcoreapp3.1\TDD_Development.dll
 C:\Users\bayteq\Documents\Local WorkSpace\TDD\SnakesAndLaddersTDD\SnakesAndLaddersTDD\TDD_Development\obj\Debug\netcoreapp3.1\TDD_Development.pdb
