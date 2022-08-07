@@ -131,7 +131,8 @@ namespace TDD_Development
             board.Squares = gameRules.LoadSquaresRules(board.Squares, gameRules.GetSquareRules());
             var diceResult = gameRules.ThrowDice(99);
             gameRules.MovePlayerToken(board, diceResult, 1);
-            Assert.IsTrue(gameRules.HasWinner(board, board.Players[0].TokenPosition));
+            gameRules.HasWinner(board, board.Players[0].TokenPosition);
+            Assert.IsTrue(board.HasWinner);
         }
 
         [Test]
@@ -142,7 +143,7 @@ namespace TDD_Development
             board.Squares = gameRules.LoadSquaresRules(board.Squares, gameRules.GetSquareRules());
             var diceResult = gameRules.ThrowDice(100);
             gameRules.MovePlayerToken(board, diceResult, 1);
-            Assert.IsFalse(gameRules.HasWinner(board, board.Players[0].TokenPosition));
+            Assert.IsFalse(board.HasWinner);
         }
 
     }

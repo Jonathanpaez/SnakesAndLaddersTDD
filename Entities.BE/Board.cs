@@ -6,8 +6,14 @@ namespace Entities.BE
 {
     public class Board
     {
+        private bool _hasWinner { get; set; }
         public List<Square> Squares { get; set; }
         public List<Player> Players { get; set; }
+        public bool HasWinner { get { return _hasWinner; } }
+        public void SetWinner()
+        {
+            _hasWinner = true;
+        }
     }
 
     public class Square

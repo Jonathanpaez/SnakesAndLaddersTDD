@@ -113,9 +113,9 @@ namespace Logic.BL
             return squares;
         }
 
-        public bool HasWinner(Board board, int playerPosition)
+        public void HasWinner(Board board, int playerPosition)
         {
-            return board.Squares.Last().NumberId == playerPosition;
+            if(board.Squares.Last().NumberId == playerPosition) board.SetWinner();
         }
     }
 }

@@ -9,9 +9,8 @@ namespace SnakesAndLaddersTDD
         {
             var gameRules = new Game();
             var board = gameRules.CreateBoard(100, 2);
-            var hasWinner = false;
             board.Squares = gameRules.LoadSquaresRules(board.Squares, gameRules.GetSquareRules());
-            while (!hasWinner)
+            while (!board.HasWinner)
             {
                 foreach (var player in board.Players)
                 {
@@ -21,13 +20,12 @@ namespace SnakesAndLaddersTDD
                     Console.WriteLine("Dice result " + diceResult);
                     gameRules.MovePlayerToken(board, diceResult, player.Id);
                     Console.WriteLine("Final Position " + player.TokenPosition);
-                    hasWinner = gameRules.HasWinner(board, player.TokenPosition);
-                    if (hasWinner)
+                    gameRules.HasWinner(board, player.TokenPosition);
+                    if (board.HasWinner)
                     {
                         Console.WriteLine("Winner Player " + player.Id); 
                         break;
                     };
-                    
                 }
             }
         }
